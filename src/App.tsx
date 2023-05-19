@@ -4,11 +4,30 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
+
+  const redd = <div className='box red'>"red"</div>
+  const oranged = <div className='box orange'>"orange"</div>
+  const yellowd = <div className='box yellow'>"yellow"</div>
+  const greend = <div className='box green'>"green"</div>
+  const blued = <div className='box blue'>"blue"</div>
+  const indigod = <div className='box indigo'>"indigo"</div>
+  const violetd = <div className='box violet'>"violet"</div>
+
 
   return (
     <>
-      <div>
+      <div className='cntainer'>
+        {redd}
+        {oranged}
+        {yellowd}
+        {greend}
+        {blued}
+        {indigod}
+        {violetd}
+      </div>
+
+      {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -27,7 +46,7 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
     </>
   )
 }
