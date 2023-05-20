@@ -35,13 +35,21 @@
   justify-content: center;
   background-color: antiquewhite;
 }
- @media screen and (min-with: 320px){
+@media screen and (min-width: 320px){
   .redd {
     background-color: red;
     color: white;
     border: 3px solid #FFFFFF;
   }
- }
+}
+@media screen and (min-with: 360px) and (min-width: 360px) {
+  .oranged {
+    background-color: orange;
+    /* color: white; */
+    font-weight: bold;
+    border: 3px solid pink;
+  }
+}
 
 a {
   font-weight: 500;
