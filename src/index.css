@@ -42,6 +42,11 @@
     background-color: #00F00f;
   }
 }
+@media screen and (min-width: 301px) and (min-height: 600px){
+  .container {
+    background-color: #FEF00F;
+  }
+}
 @media screen and (min-width: 320px){
   .redd {
     background-color: red;
