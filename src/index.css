@@ -36,7 +36,7 @@
   background-color: antiquewhite;
 }
  @media screen and (min-with: 320px){
-  .red {
+  .redd {
     background-color: red;
     color: white;
     border: 3px solid #FFFFFF;
