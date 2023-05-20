@@ -42,13 +42,12 @@
     border: 3px solid #FFFFFF;
   }
 }
-@media screen and (min-with: 360px) and (min-width: 360px) {
+@media screen and (min-width: 360px) and (min-width: 360px) {
   .oranged {
     background-color: orange;
     /* color: white; */
     font-weight: bold;
     border: 3px solid pink;
-    width: 380px;
   }
 }
 
