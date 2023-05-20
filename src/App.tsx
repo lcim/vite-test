@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <div className='cntainer'>
+      <div className='container'>
         {redd}
         {oranged}
         {yellowd}
