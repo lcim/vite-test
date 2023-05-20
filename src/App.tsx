@@ -6,13 +6,13 @@
 function App() {
   // const [count, setCount] = useState(0)
 
-  const redd = <div className='box red'>"red"</div>
-  const oranged = <div className='box orange'>"orange"</div>
-  const yellowd = <div className='box yellow'>"yellow"</div>
-  const greend = <div className='box green'>"green"</div>
-  const blued = <div className='box blue'>"blue"</div>
-  const indigod = <div className='box indigo'>"indigo"</div>
-  const violetd = <div className='box violet'>"violet"</div>
+  const redd = <div className='box redd'>"red"</div>
+  const oranged = <div className='box oranged'>"orange"</div>
+  const yellowd = <div className='box yellowd'>"yellow"</div>
+  const greend = <div className='box greend'>"green"</div>
+  const blued = <div className='box blue'>"blued"</div>
+  const indigod = <div className='box indigo'>"indigod"</div>
+  const violetd = <div className='box violet'>"violetd"</div>
 
 
   return (
