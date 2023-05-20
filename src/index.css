@@ -39,8 +39,7 @@
 }
 @media screen and (min-width: 300px){
   .container {
-    background-color: #d8f1d8;
-    border: 3px solid #00F00f;
+    background-color: #00F00f;
   }
 }
 @media screen and (min-width: 320px){
