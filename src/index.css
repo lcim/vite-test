@@ -19,7 +19,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  text-align: center;
+  margin-inline-end: auto;
 }
 .box {
   height: 80px;
@@ -29,7 +30,9 @@
   margin-block: 3px;
   text-align: center;
   margin-inline: auto;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 a {
