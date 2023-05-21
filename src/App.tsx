@@ -18,13 +18,7 @@ function App() {
   return (
     <>
       <div className='container'>
-        {redd}
-        {oranged}
-        {yellowd}
-        {greend}
-        {blued}
-        {indigod}
-        {violetd}
+        {redd}{oranged}{yellowd}{greend}{blued}{indigod}{violetd}
       </div>
 
       {/* <div>
