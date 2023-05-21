@@ -21,8 +21,8 @@
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  margin: auto;
-  width: 50%;
+  /* margin: auto;
+  width: 50%; */
 }
 .box {
   height: 40px;
