@@ -20,8 +20,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: auto;
-  width: 50%;
+  margin-inline: auto;
 }
 .box {
   height: 80px;
@@ -55,7 +54,7 @@
     border: 3px solid #FFFFFF;
   }
 }
-@media screen and (min-width: 360px) and (min-width: 360px) {
+@media screen and (min-width: 480px) and (max-height: 300px) {
   .oranged {
     background-color: orange;
     border: 3px solid pink;
