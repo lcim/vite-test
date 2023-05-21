@@ -69,7 +69,8 @@
 @media screen and (min-width: 480px) and (max-height: 400px) {
   .container {
     flex-direction: row;
-    border: 6px dashed red;
+    flex-wrap: wrap;
+    border: 1px dashed red;
   }
 }
 a {
