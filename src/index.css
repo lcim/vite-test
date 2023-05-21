@@ -17,6 +17,7 @@
 .container {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -66,13 +67,12 @@
     border: 6px dashed red;
   }
 }
-/* @media screen and (min-width: 480px) and (max-height: 400px) {
+@media screen and (min-width: 480px) and (max-height: 400px) {
   .container {
     flex-direction: row;
-    flex-wrap: wrap;
     border: 1px dashed red;
   }
-} */
+}
 a {
   font-weight: 500;
   color: #646cff;
