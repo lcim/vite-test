@@ -10,9 +10,9 @@ function App() {
   const oranged = <div className='box oranged'>"orange"</div>
   const yellowd = <div className='box yellowd'>"yellow"</div>
   const greend = <div className='box greend'>"green"</div>
-  const blued = <div className='box blue'>"blued"</div>
-  const indigod = <div className='box indigo'>"indigod"</div>
-  const violetd = <div className='box violet'>"violetd"</div>
+  const blued = <div className='box blued'>"blued"</div>
+  const indigod = <div className='box indigod'>"indigo"</div>
+  const violetd = <div className='box violetd'>"violet"</div>
 
 
   return (
