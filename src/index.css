@@ -73,7 +73,7 @@
     border: 6px dashed #FFFFFF;
   }
 }
-@media screen and (min-width: 760px) and (orientation: portrait) {
+/* @media screen and (min-width: 760px) and (orientation: portrait) {
   .indigod {
     background-color: indigo;
     border: 6px dashed pink;
@@ -84,7 +84,7 @@
     background-color: violet;
     border: 6px dashed #2F9;
   }
-}
+} */
 @media screen and (min-width: 480px) and (max-height: 480px) {
   .container {
     flex-direction: row;
