@@ -21,7 +21,7 @@
   align-items: center;
   text-align: center;
   margin: auto;
-  width: 50%;
+  width: 60%;
 }
 .box {
   height: 40px;
@@ -61,7 +61,7 @@
     border: 3px solid pink;
   }
 }
-@media screen and (min-width: 480px) and (max-height: 300px) {
+@media screen and (min-width: 480px) and (orientation: landscape) {
   .yellowd {
     background-color: yellow;
     border: 6px dashed red;
@@ -70,7 +70,7 @@
 @media screen and (min-width: 480px) and (max-height: 480px) {
   .container {
     flex-direction: row;
-    border: 1px dashed red;
+    border: 4px dashed red;
   }
 }
 a {
